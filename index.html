@@ -582,7 +582,7 @@ function draw(){
   /* Ville de résidence */
   pinShape(g,84,1260,78,'#fff');
   g.font='500 28px '+FF; g.fillStyle='rgba(255,255,255,.85)';
-  g.fillText('Ma ville au Tchad',142,1188);
+  g.fillText('Ma ville de Résidence',142,1188);
   const hasVille=!!d.ville;
   const vf=fit(g,hasVille?d.ville.toUpperCase():'VOTRE VILLE',hasVille?'800':'italic 700',70,34,660);
   g.font=(hasVille?'800':'italic 700')+' '+vf.size+'px '+FF;
